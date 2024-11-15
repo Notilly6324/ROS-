@@ -1,0 +1,92 @@
+[
+{
+  "directory": "/home/notilly/demo03_ws/build/gtest/googlemock",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -isystem /usr/src/googletest/googlemock/include -isystem /usr/src/googletest/googlemock -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -O2 -g -DNDEBUG -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /usr/src/googletest/googlemock/src/gmock_main.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/notilly/demo03_ws/build/gtest/googlemock",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -O2 -g -DNDEBUG -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /usr/src/googletest/googlemock/src/gmock-all.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/notilly/demo03_ws/build/gtest/googletest",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_EXPORTS -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -O2 -g -DNDEBUG -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/googletest/googletest/src/gtest_main.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest_main.cc"
+},
+{
+  "directory": "/home/notilly/demo03_ws/build/gtest/googletest",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -O2 -g -DNDEBUG -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/notilly/demo03_ws/build/plumbing_apis",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"plumbing_apis\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -O2 -g -DNDEBUG   -std=gnu++14 -o CMakeFiles/demo01_apis_pub.dir/src/demo01_apis_pub.cpp.o -c /home/notilly/demo03_ws/src/plumbing_apis/src/demo01_apis_pub.cpp",
+  "file": "/home/notilly/demo03_ws/src/plumbing_apis/src/demo01_apis_pub.cpp"
+},
+{
+  "directory": "/home/notilly/demo03_ws/build/plumbing_param_server",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"plumbing_param_server\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -O2 -g -DNDEBUG   -std=gnu++14 -o CMakeFiles/demo03_param_del.dir/src/demo03_param_del.cpp.o -c /home/notilly/demo03_ws/src/plumbing_param_server/src/demo03_param_del.cpp",
+  "file": "/home/notilly/demo03_ws/src/plumbing_param_server/src/demo03_param_del.cpp"
+},
+{
+  "directory": "/home/notilly/demo03_ws/build/plumbing_param_server",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"plumbing_param_server\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -O2 -g -DNDEBUG   -std=gnu++14 -o CMakeFiles/demo02_param_get.dir/src/demo02_param_get.cpp.o -c /home/notilly/demo03_ws/src/plumbing_param_server/src/demo02_param_get.cpp",
+  "file": "/home/notilly/demo03_ws/src/plumbing_param_server/src/demo02_param_get.cpp"
+},
+{
+  "directory": "/home/notilly/demo03_ws/build/plumbing_param_server",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"plumbing_param_server\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -O2 -g -DNDEBUG   -std=gnu++14 -o CMakeFiles/demo01_param_set.dir/src/demo01_param_set.cpp.o -c /home/notilly/demo03_ws/src/plumbing_param_server/src/demo01_param_set.cpp",
+  "file": "/home/notilly/demo03_ws/src/plumbing_param_server/src/demo01_param_set.cpp"
+},
+{
+  "directory": "/home/notilly/demo03_ws/build/plumbing_pub_sub",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"plumbing_pub_sub\\\" -I/home/notilly/demo03_ws/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -O2 -g -DNDEBUG   -std=gnu++14 -o CMakeFiles/demo04_sub_person.dir/src/demo04_sub_person.cpp.o -c /home/notilly/demo03_ws/src/plumbing_pub_sub/src/demo04_sub_person.cpp",
+  "file": "/home/notilly/demo03_ws/src/plumbing_pub_sub/src/demo04_sub_person.cpp"
+},
+{
+  "directory": "/home/notilly/demo03_ws/build/plumbing_pub_sub",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"plumbing_pub_sub\\\" -I/home/notilly/demo03_ws/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -O2 -g -DNDEBUG   -std=gnu++14 -o CMakeFiles/demo03_pub_person.dir/src/demo03_pub_person.cpp.o -c /home/notilly/demo03_ws/src/plumbing_pub_sub/src/demo03_pub_person.cpp",
+  "file": "/home/notilly/demo03_ws/src/plumbing_pub_sub/src/demo03_pub_person.cpp"
+},
+{
+  "directory": "/home/notilly/demo03_ws/build/plumbing_pub_sub",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"plumbing_pub_sub\\\" -I/home/notilly/demo03_ws/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -O2 -g -DNDEBUG   -std=gnu++14 -o CMakeFiles/demo02_sub.dir/src/demo02_sub.cpp.o -c /home/notilly/demo03_ws/src/plumbing_pub_sub/src/demo02_sub.cpp",
+  "file": "/home/notilly/demo03_ws/src/plumbing_pub_sub/src/demo02_sub.cpp"
+},
+{
+  "directory": "/home/notilly/demo03_ws/build/plumbing_pub_sub",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"plumbing_pub_sub\\\" -I/home/notilly/demo03_ws/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -O2 -g -DNDEBUG   -std=gnu++14 -o CMakeFiles/demo01_pub.dir/src/demo01_pub.cpp.o -c /home/notilly/demo03_ws/src/plumbing_pub_sub/src/demo01_pub.cpp",
+  "file": "/home/notilly/demo03_ws/src/plumbing_pub_sub/src/demo01_pub.cpp"
+},
+{
+  "directory": "/home/notilly/demo03_ws/build/plumbing_server_client",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"plumbing_server_client\\\" -I/home/notilly/demo03_ws/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -O2 -g -DNDEBUG   -std=gnu++14 -o CMakeFiles/demo02_client.dir/src/demo02_client.cpp.o -c /home/notilly/demo03_ws/src/plumbing_server_client/src/demo02_client.cpp",
+  "file": "/home/notilly/demo03_ws/src/plumbing_server_client/src/demo02_client.cpp"
+},
+{
+  "directory": "/home/notilly/demo03_ws/build/plumbing_server_client",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"plumbing_server_client\\\" -I/home/notilly/demo03_ws/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -O2 -g -DNDEBUG   -std=gnu++14 -o CMakeFiles/demo01_server.dir/src/demo01_server.cpp.o -c /home/notilly/demo03_ws/src/plumbing_server_client/src/demo01_server.cpp",
+  "file": "/home/notilly/demo03_ws/src/plumbing_server_client/src/demo01_server.cpp"
+},
+{
+  "directory": "/home/notilly/demo03_ws/build/plumbing_test",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"plumbing_test\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -O2 -g -DNDEBUG   -std=gnu++14 -o CMakeFiles/test03_service_client.dir/src/test03_service_client.cpp.o -c /home/notilly/demo03_ws/src/plumbing_test/src/test03_service_client.cpp",
+  "file": "/home/notilly/demo03_ws/src/plumbing_test/src/test03_service_client.cpp"
+},
+{
+  "directory": "/home/notilly/demo03_ws/build/plumbing_test",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"plumbing_test\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -O2 -g -DNDEBUG   -std=gnu++14 -o CMakeFiles/test02_sub_pose.dir/src/test02_sub_pose.cpp.o -c /home/notilly/demo03_ws/src/plumbing_test/src/test02_sub_pose.cpp",
+  "file": "/home/notilly/demo03_ws/src/plumbing_test/src/test02_sub_pose.cpp"
+},
+{
+  "directory": "/home/notilly/demo03_ws/build/plumbing_test",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"plumbing_test\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -O2 -g -DNDEBUG   -std=gnu++14 -o CMakeFiles/test04_param.dir/src/test04_param.cpp.o -c /home/notilly/demo03_ws/src/plumbing_test/src/test04_param.cpp",
+  "file": "/home/notilly/demo03_ws/src/plumbing_test/src/test04_param.cpp"
+},
+{
+  "directory": "/home/notilly/demo03_ws/build/plumbing_test",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"plumbing_test\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -O2 -g -DNDEBUG   -std=gnu++14 -o CMakeFiles/test01_pub_twist.dir/src/test01_pub_twist.cpp.o -c /home/notilly/demo03_ws/src/plumbing_test/src/test01_pub_twist.cpp",
+  "file": "/home/notilly/demo03_ws/src/plumbing_test/src/test01_pub_twist.cpp"
+}
+]
