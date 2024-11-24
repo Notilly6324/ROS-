@@ -44,6 +44,10 @@ int main (int argc,char *argv[]){
 
     while (ros::ok())
     {
+        //如果计数器大于等于50，那么关闭节点
+        if(count >= 50){
+            ros::shutdown();
+        }
 
         count++;
         // msg.data = "hello";
@@ -57,9 +61,9 @@ int main (int argc,char *argv[]){
         ROS_INFO("发布的数据是:%s", ss.str().c_str());
         rate.sleep();
         ros::spinOnce();//官方建议，处理回调函数
-
     }
+    ros::spinOnce();
+    ROS_INFO("一轮回调执行完毕");
 
     return 0;
-
 }

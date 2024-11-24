@@ -68,6 +68,17 @@ install/local/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
+
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -89,17 +100,6 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
-
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
 
 # Special rule for the target list_install_components
 list_install_components:
@@ -168,6 +168,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+plumbing_apis/CMakeFiles/demo03_apis_time.dir/rule:
+	cd /home/notilly/demo03_ws/build && $(MAKE) -f CMakeFiles/Makefile2 plumbing_apis/CMakeFiles/demo03_apis_time.dir/rule
+.PHONY : plumbing_apis/CMakeFiles/demo03_apis_time.dir/rule
+
+# Convenience name for target.
+demo03_apis_time: plumbing_apis/CMakeFiles/demo03_apis_time.dir/rule
+
+.PHONY : demo03_apis_time
+
+# fast build rule for target.
+demo03_apis_time/fast:
+	cd /home/notilly/demo03_ws/build && $(MAKE) -f plumbing_apis/CMakeFiles/demo03_apis_time.dir/build.make plumbing_apis/CMakeFiles/demo03_apis_time.dir/build
+.PHONY : demo03_apis_time/fast
+
+# Convenience name for target.
 plumbing_apis/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
 	cd /home/notilly/demo03_ws/build && $(MAKE) -f CMakeFiles/Makefile2 plumbing_apis/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 .PHONY : plumbing_apis/CMakeFiles/std_msgs_generate_messages_py.dir/rule
@@ -196,6 +211,21 @@ std_msgs_generate_messages_nodejs: plumbing_apis/CMakeFiles/std_msgs_generate_me
 std_msgs_generate_messages_nodejs/fast:
 	cd /home/notilly/demo03_ws/build && $(MAKE) -f plumbing_apis/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make plumbing_apis/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
 .PHONY : std_msgs_generate_messages_nodejs/fast
+
+# Convenience name for target.
+plumbing_apis/CMakeFiles/demo02_apis_sub.dir/rule:
+	cd /home/notilly/demo03_ws/build && $(MAKE) -f CMakeFiles/Makefile2 plumbing_apis/CMakeFiles/demo02_apis_sub.dir/rule
+.PHONY : plumbing_apis/CMakeFiles/demo02_apis_sub.dir/rule
+
+# Convenience name for target.
+demo02_apis_sub: plumbing_apis/CMakeFiles/demo02_apis_sub.dir/rule
+
+.PHONY : demo02_apis_sub
+
+# fast build rule for target.
+demo02_apis_sub/fast:
+	cd /home/notilly/demo03_ws/build && $(MAKE) -f plumbing_apis/CMakeFiles/demo02_apis_sub.dir/build.make plumbing_apis/CMakeFiles/demo02_apis_sub.dir/build
+.PHONY : demo02_apis_sub/fast
 
 # Convenience name for target.
 plumbing_apis/CMakeFiles/demo01_apis_pub.dir/rule:
@@ -333,6 +363,21 @@ rosgraph_msgs_generate_messages_cpp/fast:
 .PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
+plumbing_apis/CMakeFiles/demo04_apis_log.dir/rule:
+	cd /home/notilly/demo03_ws/build && $(MAKE) -f CMakeFiles/Makefile2 plumbing_apis/CMakeFiles/demo04_apis_log.dir/rule
+.PHONY : plumbing_apis/CMakeFiles/demo04_apis_log.dir/rule
+
+# Convenience name for target.
+demo04_apis_log: plumbing_apis/CMakeFiles/demo04_apis_log.dir/rule
+
+.PHONY : demo04_apis_log
+
+# fast build rule for target.
+demo04_apis_log/fast:
+	cd /home/notilly/demo03_ws/build && $(MAKE) -f plumbing_apis/CMakeFiles/demo04_apis_log.dir/build.make plumbing_apis/CMakeFiles/demo04_apis_log.dir/build
+.PHONY : demo04_apis_log/fast
+
+# Convenience name for target.
 plumbing_apis/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
 	cd /home/notilly/demo03_ws/build && $(MAKE) -f CMakeFiles/Makefile2 plumbing_apis/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 .PHONY : plumbing_apis/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
@@ -434,6 +479,87 @@ src/demo01_apis_pub.cpp.s:
 	cd /home/notilly/demo03_ws/build && $(MAKE) -f plumbing_apis/CMakeFiles/demo01_apis_pub.dir/build.make plumbing_apis/CMakeFiles/demo01_apis_pub.dir/src/demo01_apis_pub.cpp.s
 .PHONY : src/demo01_apis_pub.cpp.s
 
+src/demo02_apis_sub.o: src/demo02_apis_sub.cpp.o
+
+.PHONY : src/demo02_apis_sub.o
+
+# target to build an object file
+src/demo02_apis_sub.cpp.o:
+	cd /home/notilly/demo03_ws/build && $(MAKE) -f plumbing_apis/CMakeFiles/demo02_apis_sub.dir/build.make plumbing_apis/CMakeFiles/demo02_apis_sub.dir/src/demo02_apis_sub.cpp.o
+.PHONY : src/demo02_apis_sub.cpp.o
+
+src/demo02_apis_sub.i: src/demo02_apis_sub.cpp.i
+
+.PHONY : src/demo02_apis_sub.i
+
+# target to preprocess a source file
+src/demo02_apis_sub.cpp.i:
+	cd /home/notilly/demo03_ws/build && $(MAKE) -f plumbing_apis/CMakeFiles/demo02_apis_sub.dir/build.make plumbing_apis/CMakeFiles/demo02_apis_sub.dir/src/demo02_apis_sub.cpp.i
+.PHONY : src/demo02_apis_sub.cpp.i
+
+src/demo02_apis_sub.s: src/demo02_apis_sub.cpp.s
+
+.PHONY : src/demo02_apis_sub.s
+
+# target to generate assembly for a file
+src/demo02_apis_sub.cpp.s:
+	cd /home/notilly/demo03_ws/build && $(MAKE) -f plumbing_apis/CMakeFiles/demo02_apis_sub.dir/build.make plumbing_apis/CMakeFiles/demo02_apis_sub.dir/src/demo02_apis_sub.cpp.s
+.PHONY : src/demo02_apis_sub.cpp.s
+
+src/demo03_apis_time.o: src/demo03_apis_time.cpp.o
+
+.PHONY : src/demo03_apis_time.o
+
+# target to build an object file
+src/demo03_apis_time.cpp.o:
+	cd /home/notilly/demo03_ws/build && $(MAKE) -f plumbing_apis/CMakeFiles/demo03_apis_time.dir/build.make plumbing_apis/CMakeFiles/demo03_apis_time.dir/src/demo03_apis_time.cpp.o
+.PHONY : src/demo03_apis_time.cpp.o
+
+src/demo03_apis_time.i: src/demo03_apis_time.cpp.i
+
+.PHONY : src/demo03_apis_time.i
+
+# target to preprocess a source file
+src/demo03_apis_time.cpp.i:
+	cd /home/notilly/demo03_ws/build && $(MAKE) -f plumbing_apis/CMakeFiles/demo03_apis_time.dir/build.make plumbing_apis/CMakeFiles/demo03_apis_time.dir/src/demo03_apis_time.cpp.i
+.PHONY : src/demo03_apis_time.cpp.i
+
+src/demo03_apis_time.s: src/demo03_apis_time.cpp.s
+
+.PHONY : src/demo03_apis_time.s
+
+# target to generate assembly for a file
+src/demo03_apis_time.cpp.s:
+	cd /home/notilly/demo03_ws/build && $(MAKE) -f plumbing_apis/CMakeFiles/demo03_apis_time.dir/build.make plumbing_apis/CMakeFiles/demo03_apis_time.dir/src/demo03_apis_time.cpp.s
+.PHONY : src/demo03_apis_time.cpp.s
+
+src/demo04_apis_log.o: src/demo04_apis_log.cpp.o
+
+.PHONY : src/demo04_apis_log.o
+
+# target to build an object file
+src/demo04_apis_log.cpp.o:
+	cd /home/notilly/demo03_ws/build && $(MAKE) -f plumbing_apis/CMakeFiles/demo04_apis_log.dir/build.make plumbing_apis/CMakeFiles/demo04_apis_log.dir/src/demo04_apis_log.cpp.o
+.PHONY : src/demo04_apis_log.cpp.o
+
+src/demo04_apis_log.i: src/demo04_apis_log.cpp.i
+
+.PHONY : src/demo04_apis_log.i
+
+# target to preprocess a source file
+src/demo04_apis_log.cpp.i:
+	cd /home/notilly/demo03_ws/build && $(MAKE) -f plumbing_apis/CMakeFiles/demo04_apis_log.dir/build.make plumbing_apis/CMakeFiles/demo04_apis_log.dir/src/demo04_apis_log.cpp.i
+.PHONY : src/demo04_apis_log.cpp.i
+
+src/demo04_apis_log.s: src/demo04_apis_log.cpp.s
+
+.PHONY : src/demo04_apis_log.s
+
+# target to generate assembly for a file
+src/demo04_apis_log.cpp.s:
+	cd /home/notilly/demo03_ws/build && $(MAKE) -f plumbing_apis/CMakeFiles/demo04_apis_log.dir/build.make plumbing_apis/CMakeFiles/demo04_apis_log.dir/src/demo04_apis_log.cpp.s
+.PHONY : src/demo04_apis_log.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -441,11 +567,13 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/local"
+	@echo "... test"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... test"
+	@echo "... demo03_apis_time"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_nodejs"
+	@echo "... demo02_apis_sub"
 	@echo "... demo01_apis_pub"
 	@echo "... roscpp_generate_messages_cpp"
 	@echo "... roscpp_generate_messages_eus"
@@ -458,6 +586,7 @@ help:
 	@echo "... roscpp_generate_messages_nodejs"
 	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... install/strip"
+	@echo "... demo04_apis_log"
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... rosgraph_msgs_generate_messages_eus"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
@@ -466,6 +595,15 @@ help:
 	@echo "... src/demo01_apis_pub.o"
 	@echo "... src/demo01_apis_pub.i"
 	@echo "... src/demo01_apis_pub.s"
+	@echo "... src/demo02_apis_sub.o"
+	@echo "... src/demo02_apis_sub.i"
+	@echo "... src/demo02_apis_sub.s"
+	@echo "... src/demo03_apis_time.o"
+	@echo "... src/demo03_apis_time.i"
+	@echo "... src/demo03_apis_time.s"
+	@echo "... src/demo04_apis_log.o"
+	@echo "... src/demo04_apis_log.i"
+	@echo "... src/demo04_apis_log.s"
 .PHONY : help
 
 
