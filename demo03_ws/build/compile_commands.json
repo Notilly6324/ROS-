@@ -101,6 +101,11 @@
 },
 {
   "directory": "/home/notilly/demo03_ws/build/plumbing_test",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"plumbing_test\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -O2 -g -DNDEBUG   -std=gnu++14 -o CMakeFiles/test04_param.dir/src/test04_param.cpp.o -c /home/notilly/demo03_ws/src/plumbing_test/src/test04_param.cpp",
+  "file": "/home/notilly/demo03_ws/src/plumbing_test/src/test04_param.cpp"
+},
+{
+  "directory": "/home/notilly/demo03_ws/build/plumbing_test",
   "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"plumbing_test\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -O2 -g -DNDEBUG   -std=gnu++14 -o CMakeFiles/test03_service_client.dir/src/test03_service_client.cpp.o -c /home/notilly/demo03_ws/src/plumbing_test/src/test03_service_client.cpp",
   "file": "/home/notilly/demo03_ws/src/plumbing_test/src/test03_service_client.cpp"
 },
@@ -108,11 +113,6 @@
   "directory": "/home/notilly/demo03_ws/build/plumbing_test",
   "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"plumbing_test\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -O2 -g -DNDEBUG   -std=gnu++14 -o CMakeFiles/test02_sub_pose.dir/src/test02_sub_pose.cpp.o -c /home/notilly/demo03_ws/src/plumbing_test/src/test02_sub_pose.cpp",
   "file": "/home/notilly/demo03_ws/src/plumbing_test/src/test02_sub_pose.cpp"
-},
-{
-  "directory": "/home/notilly/demo03_ws/build/plumbing_test",
-  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"plumbing_test\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -O2 -g -DNDEBUG   -std=gnu++14 -o CMakeFiles/test04_param.dir/src/test04_param.cpp.o -c /home/notilly/demo03_ws/src/plumbing_test/src/test04_param.cpp",
-  "file": "/home/notilly/demo03_ws/src/plumbing_test/src/test04_param.cpp"
 },
 {
   "directory": "/home/notilly/demo03_ws/build/plumbing_test",

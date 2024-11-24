@@ -1,0 +1,59 @@
+bg_B: 20
+bg_G: 50
+bg_R: 100
+my_turtle:
+  background_b: 255
+  background_g: 86
+  background_r: 69
+  bg_B: 20
+  bg_G: 50
+  bg_R: 100
+  param_B: 3.14
+param_A: 100
+rosdistro: 'noetic
+
+  '
+roslaunch:
+  uris:
+    host_notilly__32977: http://notilly:32977/
+    host_notilly__33041: http://notilly:33041/
+    host_notilly__33103: http://notilly:33103/
+    host_notilly__33109: http://notilly:33109/
+    host_notilly__34075: http://notilly:34075/
+    host_notilly__35037: http://notilly:35037/
+    host_notilly__35251: http://notilly:35251/
+    host_notilly__35441: http://notilly:35441/
+    host_notilly__36309: http://notilly:36309/
+    host_notilly__36605: http://notilly:36605/
+    host_notilly__36623: http://notilly:36623/
+    host_notilly__37317: http://notilly:37317/
+    host_notilly__37677: http://notilly:37677/
+    host_notilly__38289: http://notilly:38289/
+    host_notilly__38513: http://notilly:38513/
+    host_notilly__38757: http://notilly:38757/
+    host_notilly__39041: http://notilly:39041/
+    host_notilly__39119: http://notilly:39119/
+    host_notilly__39687: http://notilly:39687/
+    host_notilly__39903: http://notilly:39903/
+    host_notilly__39909: http://notilly:39909/
+    host_notilly__40153: http://notilly:40153/
+    host_notilly__41543: http://notilly:41543/
+    host_notilly__41959: http://notilly:41959/
+    host_notilly__42413: http://notilly:42413/
+    host_notilly__42479: http://notilly:42479/
+    host_notilly__43347: http://notilly:43347/
+    host_notilly__44121: http://notilly:44121/
+    host_notilly__44201: http://notilly:44201/
+    host_notilly__44971: http://notilly:44971/
+    host_notilly__45081: http://notilly:45081/
+    host_notilly__45153: http://notilly:45153/
+    host_notilly__45599: http://notilly:45599/
+    host_notilly__46777: http://notilly:46777/
+rosversion: '1.17.0
+
+  '
+run_id: adc4fd68-9dca-11ef-86f6-e797db72f504
+turtle1:
+  background_b: 0
+  background_g: 0
+  background_r: 0

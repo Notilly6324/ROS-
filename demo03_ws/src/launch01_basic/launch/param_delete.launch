@@ -1,0 +1,8 @@
+<launch>
+
+    <!-- 删除参数 -->
+    <rosparam command="delete" param="/bg_B"/>
+    <rosparam command="delete" param="/bg_G"/>
+    <rosparam command="delete" param="/bg_R"/>
+
+</launch>
