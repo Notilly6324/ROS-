@@ -533,6 +533,24 @@ plumbing_test_BINARY_DIR:STATIC=/home/notilly/demo03_ws/build/plumbing_test
 //Value Computed by CMake
 plumbing_test_SOURCE_DIR:STATIC=/home/notilly/demo03_ws/src/plumbing_test
 
+//Value Computed by CMake
+rename01_node_BINARY_DIR:STATIC=/home/notilly/demo03_ws/build/rename01_node
+
+//Value Computed by CMake
+rename01_node_SOURCE_DIR:STATIC=/home/notilly/demo03_ws/src/rename01_node
+
+//Value Computed by CMake
+rename02_topic_BINARY_DIR:STATIC=/home/notilly/demo03_ws/build/rename02_topic
+
+//Value Computed by CMake
+rename02_topic_SOURCE_DIR:STATIC=/home/notilly/demo03_ws/src/rename02_topic
+
+//Value Computed by CMake
+rename03_param_BINARY_DIR:STATIC=/home/notilly/demo03_ws/build/rename03_param
+
+//Value Computed by CMake
+rename03_param_SOURCE_DIR:STATIC=/home/notilly/demo03_ws/src/rename03_param
+
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/noetic/share/rosconsole/cmake
 
@@ -717,7 +735,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=13
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=16
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

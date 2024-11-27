@@ -100,6 +100,16 @@
   "file": "/home/notilly/demo03_ws/src/plumbing_server_client/src/demo01_server.cpp"
 },
 {
+  "directory": "/home/notilly/demo03_ws/build/rename02_topic",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rename02_topic\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -O2 -g -DNDEBUG   -std=gnu++14 -o CMakeFiles/topic_name.dir/src/topic_name.cpp.o -c /home/notilly/demo03_ws/src/rename02_topic/src/topic_name.cpp",
+  "file": "/home/notilly/demo03_ws/src/rename02_topic/src/topic_name.cpp"
+},
+{
+  "directory": "/home/notilly/demo03_ws/build/rename03_param",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rename03_param\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -O2 -g -DNDEBUG   -std=gnu++14 -o CMakeFiles/param_name.dir/src/param_name.cpp.o -c /home/notilly/demo03_ws/src/rename03_param/src/param_name.cpp",
+  "file": "/home/notilly/demo03_ws/src/rename03_param/src/param_name.cpp"
+},
+{
   "directory": "/home/notilly/demo03_ws/build/plumbing_test",
   "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"plumbing_test\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -O2 -g -DNDEBUG   -std=gnu++14 -o CMakeFiles/test04_param.dir/src/test04_param.cpp.o -c /home/notilly/demo03_ws/src/plumbing_test/src/test04_param.cpp",
   "file": "/home/notilly/demo03_ws/src/plumbing_test/src/test04_param.cpp"

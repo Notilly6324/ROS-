@@ -1,0 +1,15 @@
+<launch>
+
+    <!-- 无操作 -->
+    <node pkg="turtlesim" type="turtlesim_node" name="turtlesim" />
+
+    <!-- 名称重映射 -->
+    <node pkg="turtlesim" type="turtlesim_node" name="t1" />
+
+    <!-- 命名空间 -->
+    <node pkg="turtlesim" type="turtlesim_node" name="turtlesim" ns="turtle1" />
+
+    <!-- 命名空间 + 名称重映射 -->
+    <node pkg="turtlesim" type="turtlesim_node" name="t2" ns="yuanshen" />
+
+</launch>
